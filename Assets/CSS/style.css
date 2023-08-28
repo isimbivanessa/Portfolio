@@ -36,13 +36,13 @@ html {
   text-shadow: none;
 }
 
-/************************************JS cursor blink removal************************************/
+
 .typed-cursor , .typed-cursor--blink{
   display: none;
   opacity:0;
 }
 
-/*******************************************NavBar Section*****************************************/
+
 .navbar__nav {
   position: fixed;
   top: 0;
@@ -120,7 +120,7 @@ html {
   border-radius: 6px;
   padding: 5px 0;
   font-size: 12px;
-  /* Position the tooltip */
+ 
   position: absolute;
   top: 80%;
   right: -10%;
@@ -133,7 +133,6 @@ html {
   visibility: visible;
 }
 
-/*=========================Mobile Bar==============================*/
 .navbar__barIcon {
   color: var(--white__color);
   font-size: 35px;
@@ -144,9 +143,7 @@ html {
   display: none;
 }
 
-/* #btnControl:checked ~ ul.mobileList {
-  display: block;
-} */
+
 
 .mobileList {
   display: none;
@@ -174,9 +171,7 @@ html {
   text-decoration: none;
 }
 
-/**************************************************************************************************/
-
-/*******************************************Home Section*****************************************/
+/*Home Section*/
 .home__Container {
   background-image:url(../img/BG.JPG);
   background-size: cover;
@@ -207,7 +202,7 @@ html {
 }
 
 .home__title {
-  /* font-size: 58px; */
+  
   font-size: calc(28px + 3vw);
   border-right: 4px solid #fff;
 }
@@ -404,7 +399,7 @@ h2.titleBackground {
 }
 
 
-/* /*Service */
+/*Service */
 #service {
   background-color: #f8f9fa;
   padding: 72px 0;
